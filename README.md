@@ -1,5 +1,11 @@
-# WeaveDemo
-A Demonstration of Weave and Microservices
+# WeaveDemo EX
+A Microservice demo using:
+
+Spring Boot - The services 
+Docker - The packaging and deployment
+Weave - Multihost Networking and DNS for Docker. The DNS will check health of Services.
+
+VirtualBox (with support for 64bit VM's) for demonstrating multihost.
 
 Software requirements:
 Vagrant and VirtualBox (relatively new)
