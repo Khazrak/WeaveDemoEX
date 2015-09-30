@@ -72,6 +72,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         apt-get update
         apt-get install -y lxc-docker
         sudo docker pull java:openjdk-8u45-jre
+	sudo docker pull weaveworks/weave:v1.1.0
+	sudo docker pull weaveworks/weaveexec:v1.1.0
     SHELL
 
     # for the purposes of our example we create a dockerfile to install apache

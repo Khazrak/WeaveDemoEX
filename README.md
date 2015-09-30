@@ -113,19 +113,16 @@ sudo chmod a+x /usr/local/bin/weave
 On host weave-demo-01
 ```bash
 sudo weave launch
-sudo weave launch-dns
 ```
 
 On host weave-demo-02
 ```bash
 sudo weave launch 172.17.8.101
-sudo weave launch-dns
 ```
 
 On host weave-demo-03
 ```bash
 sudo weave launch 172.17.8.101
-sudo weave launch-dns
 ```
 
 ## Part 4 - Weave It!

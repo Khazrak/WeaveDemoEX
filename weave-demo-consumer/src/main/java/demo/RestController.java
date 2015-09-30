@@ -93,7 +93,7 @@ public class RestController {
             System.out.println("Caught NoRoute!");
             sleep(3);
             retry = true;
-        } 
+        }
     }
 
     private void resetValues() {
